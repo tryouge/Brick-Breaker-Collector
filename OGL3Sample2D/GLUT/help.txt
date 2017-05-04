@@ -1,0 +1,16 @@
+The game consists of all the mouse controls and keyboard controls as mentioned in the problem statement.
+
+Ways to achieve score:
+1) Shoot black bricks
+2) Collect red bricks in red bucket
+3) Collect blue bricks in blue bucket
+
+However, misfiring at red/blue bricks will deduct your score (can be negative).
+
+Ways to lose game:
+1) Collecting black bricks in any bucket
+2) When lives become 0 due to misfiring at red and blue bricks
+
+In addition to the standard red,blue and black bricks, there is an additional green brick which acts as another falling object that deflects the laser (multiple deflections possible off green bricks)
+
+Score board is a running one in the terminal along with the number of lives.
